@@ -24,7 +24,9 @@ const randomBytes = promisify(crypto.randomBytes);
 const pbkdf2 = promisify(crypto.pbkdf2);
 const User = require("./user.model");
 require("dotenv").config();
-const db = mongoose.connect(process.env.MONGODB_URI).connection;
+const db = mongoose.connect(process.env.MONGODB_URI, {
+	poolSize: 200
+}).connection;
 
 mongoose.Promise = global.Promise;
 
