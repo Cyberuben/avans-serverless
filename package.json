@@ -1,0 +1,24 @@
+{
+  "name": "avans-serverless-research",
+  "version": "1.0.0",
+  "description": "Simple project to compare the performance, cost and maintainability of a regular \"hosted\" API using Node.js, Express and MongoDB and a serverless microservice with the same result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyberuben/avans-serverless.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyberuben/avans-serverless/issues"
+  },
+  "homepage": "https://github.com/Cyberuben/avans-serverless#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3"
+  }
+}
